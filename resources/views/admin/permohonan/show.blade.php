@@ -114,7 +114,7 @@
             <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm">
                 <div class="mb-8">
                     <label class="text-[10px] text-gray-400 font-bold uppercase mb-2 block tracking-widest">Informasi Yang Diminta</label>
-                    <div class="p-6 bg-red-50 rounded-2xl border border-red-100 italic text-gray-800 text-lg leading-relaxed">
+                    <div class="p-6 bg-red-50 rounded-2xl border border-red-100 italic text-gray-800 text-lg leading-relaxed break-words">
                         "{{ $permohonan->rincian_informasi }}"
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <label class="text-[10px] text-gray-400 font-bold uppercase block mb-1">Tujuan Penggunaan</label>
-                        <p class="text-gray-700 font-bold italic">{{ $permohonan->tujuan_penggunaan }}</p>
+                        <p class="text-gray-700 font-bold italic break-words">{{ $permohonan->tujuan_penggunaan }}</p>
                     </div>
                     <div>
                         <label class="text-[10px] text-gray-400 font-bold uppercase block mb-1">Cara Memperoleh</label>
